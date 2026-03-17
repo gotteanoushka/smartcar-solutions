@@ -4,7 +4,7 @@ import Booking from "./models/booking.js";
 
 dotenv.config();
 
-const URL = process.env.MONGO_URL || "mongodb+srv://user123:user123@cluster0.64xfaci.mongodb.net/smartcar?appName=Cluster0";
+const URL = process.env.MONGO_URL || "mongodb+srv://:@cluster0.64xfaci.mongodb.net/smartcar?appName=Cluster0";
 
 mongoose.connect(URL)
   .then(async () => {
